@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Design Gallery</title>
+<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+<script language="javascript">
+var lastID = 0;
+function SelectImg(id) {
+if (lastID > 0) {
+document.getElementById(lastID).className = "thumbnail";
+}
+document.getElementById(id).className = "thumbSelected";
+document.getElementById(0).src = document.getElementById(id).src;
+lastID = id;
+}
+function LoadTrigger() {
+SelectImg(1);
+}
+window.onload = LoadTrigger;
+</script>
+<link rel="stylesheet" href="css/styles3.css">
+</head>
+
+<body>
+
+<header class= "title">
+<img src="img/Asset 1@3x.png" alt=""/>
+<nav>
+
+	  <a href="#" id="menu-icon"></a>
+
+	  <ul id="menu">
+	
+		<li><a href="home.html">Home</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li class="dropdown">
+		<a href="experience.html" class="dropbtn">Experience</a>
+		<div class="dropdown-content">
+			<a href="photoshop.html">Photoshop</a>
+			<a href="illustrator.html">Illustrator</a>
+			<a href="indesign.html">InDesign</a>
+			<a href="videoEditing.html">Video Editing</a>
+			<a href="motionGraphics.html">Motion Graphics</a>
+			<a href="dreamweaver.html">Dreamweaver</a>
+		</div>
+		</li>		
+  </ul>
+</nav>
+</header>
+	
+
+<div id="wrapper">
+<div class="pageHeader">
+	<h1>Design Gallery</h1>
+	</div>
+	
+<div class="gallery">
+<table cellpadding="1" cellspacing="1">
+<tr>
+<td align="center" valign="middle">
+<img id="1" class="thumbnail" src="img/Asarte2.jpg" width="50" onclick="SelectImg(1)">  
+<img id="2" class="thumbnail" src="img/Typography2.jpg" width="50" onclick="SelectImg(2)"><br>  
+<img id="3" class="thumbnail" src="img/AnatomyOfTypography2.jpg" width="50" onclick="SelectImg(3)"> 
+<img id="4" class="thumbnail" src="img/BookCover4.jpg" width="50" onclick="SelectImg(4)"><br>
+<img id="5" class="thumbnail" src="img/Figure2_DogsterMagazine.jpg" width="50" onclick="SelectImg(5)">  
+<img id="6" class="thumbnail" src="img/MemoryRoadPoster.jpg" width="50" onclick="SelectImg(6)"><br>
+<img id="7" class="thumbnail" src="img/notForProfit.jpg" width="50" onclick="SelectImg(7)"> 
+<img id="8" class="thumbnail" src="img/porkpie2.jpg" width="50" onclick="SelectImg(8)"><br>
+</td>
+<td width="10">
+</td>
+<td align="center" valign="top">
+<img id="0" src="img/Asarte2.jpg">
+</td>
+</tr>
+</table>
+	</div>
+	</div>
+	  
+</body>
+</html>

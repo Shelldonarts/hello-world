@@ -1,0 +1,340 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size: 1.05em;
+	line-height: 1.25em;
+	font-family: 'Marcellus', serif;
+	background-color: #444641;
+}
+
+#wrapper{
+	width: 80%;
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 3%;
+background-color: #444641;
+background-image: url(https://www.transparenttextures.com/patterns/dark-leather.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	border-right-style: solid;
+	border-color: #585858 #1D1D1D #1D1D1D #585858;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+a:hover {
+	color: #000000;
+}
+#accordion {
+	max-width:60%;
+	margin-bottom:10%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#accordion h3 {
+	background-color: #98B476;	
+}
+
+.contact p{
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-align: left;
+}
+.contact{
+	width: 70%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: #ffffff;
+}
+.contact img{
+	
+	padding:10%;
+	width: 40%;
+}
+.contact a {
+	padding-left:2%;
+}
+.contact a:hover{
+	background-color: #98B476;
+	width:100%;
+	
+}
+.title {
+
+	background: #ffffff;
+	width: 100%;
+	height: 20%;
+	top: 0;
+	left: 0;
+}
+
+.title img {
+	margin-top: 2%;
+	margin-left: 3%;
+	padding: 0;
+	width: 45%;	
+}
+
+
+.title nav {
+
+	float: right;
+	padding: 20px;
+}
+
+.port {
+	background-color: #1D1D1D;
+	display:inline-block;
+	width: 30%;
+	margin:1% 1% 1% 1.75%;
+	-webkit-box-shadow: inset 3px 3px #536739;
+	box-shadow: inset 3px 3px #536739;
+}
+.port p {
+	text-align: center;
+	color:#ffffff;
+	margin: 1%;
+	padding: 1%;
+}
+.port img {
+	margin-left: 1.485%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 2%;
+	width: 43%;
+}
+.port h3,.port h2 {
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
+	padding: 2%;
+	font-size: 165%;
+	line-height: 105%;
+}
+.port a {
+	display: block;
+	padding-top:2%;
+	padding-bottom: 2%;
+	text-align: center;
+}
+.port a:hover {
+	background-color: #98B476;	
+}
+.gallery {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 3%;
+	padding-right: 4%;
+	padding-bottom: 3%;
+	width: 80%;
+	background-color: #1D1D1D;
+	text-align: center;
+	-webkit-box-shadow: inset 3px 3px #536739;
+	box-shadow: inset 3px 3px #536739;
+}
+
+.thumbSelected {
+	border: 1px solid #000000;
+	-webkit-box-shadow: 1px 1px 2px 1px #AFAFAF;
+	box-shadow: 1px 1px 2px 1px #AFAFAF;
+}
+table{
+	padding-top:6%;
+	margin-left:auto;
+	margin-right:auto;
+}
+table img {
+	padding-bottom:1%;
+	max-width:100%;	
+}
+
+#menu-icon {
+
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(../img/menu-icon.png) center;
+}
+
+
+
+ul {
+
+	list-style: none;
+}
+
+li {
+
+	display: inline-block;
+	padding: 10px;
+}
+li a {
+	padding: 4px;
+}
+
+li a:hover {
+	border: .15px solid #69814D;
+	-webkit-box-shadow: -1px -1px 1px 1px #69814D;
+	box-shadow: -1px -1px 1px 1px #69814D;
+}
+li.dropdown {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 130px;
+	z-index: 2;
+	border: thin solid #000000;
+	margin-top: 5px;
+	background-color: #6C844F;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+	display: block;
+	text-align: center;	
+}
+
+.dropdown-content a:hover {
+	background-color: #C2D3AE;
+	border-color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.pageHeader {
+	margin-top:1%;
+	margin-bottom:1%;
+	padding:1%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+p {
+
+	line-height: 1.45em;
+	margin-bottom: 20px;
+}
+h3{
+	color:#ffffff;
+}
+
+.video-container {
+	margin-top:5%;
+	margin-left:5%;
+	margin-bottom:5%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height:0;
+	overflow: hidden;
+}
+.video-container iframe, .video-container object, .videocontainer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 95%;
+	height: 95%;
+}
+.video-container2 {
+	margin-top: .5%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height:0;
+	overflow: hidden;
+}
+.video-container2 iframe, .video-container object, .videocontainer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.video-container3 {
+	margin-top: .5%;
+	margin-bottom: 5%;
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height:0;
+	overflow: hidden;
+}
+.video-container3 iframe, .video-container object, .videocontainer embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.vidEdt{
+	margin-top: 15%;
+}
+
+@media only screen and (max-width : 780px) {
+
+	header {
+
+		position: relative;
+	}
+
+	#menu-icon {
+
+		display:inline-block;
+	}
+
+	nav ul, nav:active ul {
+	display: none;
+	position: absolute;
+	padding: 2px;
+	background-color: #C2D3AE;
+	border: thin solid #000000;
+	right: 8px;
+	top: 40px;
+	width: 25%;
+	}
+
+	nav li {
+		text-align: center;
+		width:85%;
+	}
+
+	nav:hover ul {
+	display: block;
+	}
+	.content{
+	margin-top:5%;
+	width:100%;
+	overflow:hidden;
+	}
+	.port {
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-right: 2%;
+	}
+	#accordion {
+	max-width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+}
