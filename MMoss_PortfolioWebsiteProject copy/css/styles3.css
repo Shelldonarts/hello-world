@@ -223,7 +223,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-/* navigation */
+/* navigation end */
 
 .pageHeader {
 	margin-top:1%;
@@ -240,6 +240,10 @@ p {
 }
 h3{
 	color:#ffffff;
+}
+
+footer {
+	text-align: center
 }
 
 .video-container {
